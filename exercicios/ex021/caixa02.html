@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        margin: 0px;
+    }
+
+    header {
+
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    article {
+        background-color: lightgray;
+        padding: 5px;
+    }
+
+    nav {
+        background-color: rgb(68, 68, 68);
+        padding: 3px;
+        box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.397);
+    }
+
+    nav>a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 30px;
+    }
+
+    nav>a:hover {
+        text-decoration: underline;
+    }
+
+    article>aside {
+        background-color: rgb(146, 146, 146);
+    }
+
+    main {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px 0px;
+        box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.527);
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 4px;
+        margin: 0px;
+    }
+
+    footer>p {
+        margin: 0px;
+    }
+</style>
+
+<body>
+
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos"></section>
+
+        <section id="noticias"></section>
+        <article>
+            <h2>Notícias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nemo quos nihil similique quasi, tempora
+                doloremque aliquam et, ex, ipsa impedit rerum sit? Laboriosam, aperiam! Quam deleniti beatae similique
+                architecto.</p>
+
+            <aside>
+                <p>Artigo escrito por José da Silva</p>
+            </aside>
+        </article>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Pedro Henrique</p>
+    </footer>
+
+</body>
+
+</html>

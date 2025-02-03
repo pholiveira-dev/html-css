@@ -1,0 +1,39 @@
+@charset "UTF 8";
+
+body{
+    background-image: linear-gradient(to left, #D9CAAD, #F2B6A0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h1{
+    font: normal, 1em, "Quicksand", serif;
+
+}
+
+h1#principal{
+    font-family: "Quicksand", serif;
+    background-color: #590202;
+    color: white;
+    text-align: center;
+}
+
+.basico{
+    background-color: #2E84A6;
+    color: white;
+    text-align: center;
+}
+
+.avancado{
+    font-family: "Quicksand", serif;
+    background-color: #F24464;
+    color: white;
+    text-align: center;
+}
+
+.intermediario{
+    font-family: "Quicksand", serif;
+    background-color: #D9CAAD;
+    color: white;
+    text-align: center
+}
