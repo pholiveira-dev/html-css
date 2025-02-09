@@ -167,7 +167,6 @@ footer > a {
 footer > a:hover{
     text-decoration: solid;
     color: white;
-    background-color: #D4AF37;
-    transition-duration: 1s;
-    padding: 10px;
+    transition-duration: 0.5s;
+    padding: 3px;
 }
